@@ -1,0 +1,304 @@
+﻿body{
+    margin:  0px;
+}
+header{
+    position:fixed;
+    background-color: rgb(8, 4, 54);
+    display: inline;
+    opacity: 80%;
+    margin: 0px 1500px 0px 0px;
+    padding:0px 1500px 80px 0px;
+    z-index:100;
+
+
+}
+header div{
+    display: inline;
+    position: relative;
+    background-color: rgb(8, 4, 54);
+
+}
+header h3{
+    background-color: gainsboro;
+    display:inline;
+    position: fixed;
+    right: 40px;
+    top:20px;
+    padding:0px 15px 0px 15px;
+
+}
+
+header img{
+    width: 150px;
+    position:absolute;
+    left:3%;
+    top:-35px;
+   
+}
+header nav{
+    display: inline;
+    position: relative;
+    background-color: rgb(8, 4, 54);
+}
+nav ul{
+    display:inline;
+    position: fixed;
+    right: 200px;
+    top:20px;
+    padding:0px 10px 0px 10px;
+    
+}
+nav ul li{
+    display: inline;
+    padding: 10px 10px;
+    margin: 20px 20px;
+}
+   
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    
+}
+nav i{
+    font-size: 30px;
+    position: absolute;
+    right: 20%;
+    top:30px;
+    
+}
+nav:hover ul{ 
+    display:inline;
+
+}
+nav ul li:hover{
+    background-color: gray;
+    border-radius: 10%;
+}
+div{ /*esta jerarquía es de tipo y se utiliza para texto,párrafos*/
+    background-color:white;
+    font-size:18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(4, 1, 27);
+    
+}
+div.img{
+    position: absolute;
+}
+
+.parrafo1 p{ /*todos los elementos de esta clase*/
+    
+    color:rgb(4, 1, 27);
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+div h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(4, 1, 27);
+    float:left;
+    text-align: center;
+
+}
+
+
+#portafolio{
+    margin-top: 10px;
+    overflow: auto;
+}
+
+div.imagen-portafolio{
+    float: left;
+    width: 50%;
+
+}
+div.imagen-portafolio img{
+    margin-left: 5%;
+
+    
+}
+
+#galeria{
+    margin-top: 50px;
+    overflow: auto;
+    background-color: gainsboro;
+}
+#galeria h1{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 30px;  
+    
+    
+    
+}
+div.imagen-galeria{
+    float: left;
+    width: 25%;
+    background-color: gainsboro;
+    
+}
+div.imagen-galeria img{
+    margin-left: 5%;
+    background-color: gainsboro;
+}
+div.parrafo2 h3,div.parrafo2 h4,div.parrafo2 h5,div.parrafo2 h6{
+    font-size: 20px;
+    display:inline;
+    position: relative;
+    padding:0px 90px 0px 90px;
+    margin: 0px 20px 20px 0px;
+    color:rgb(4, 1, 27);
+
+
+    
+}
+footer{
+    background-color: rgb(8, 4, 54);
+    position: relative;
+    padding: 20px 0px 30px 30px;
+    margin: 20px 0px 0px 0px;
+    top:10px;
+    
+    
+}
+
+footer h6{
+    font-size: 20px;
+    color: white;
+    position: relative;
+    text-decoration:underline;
+    left: -10px;
+    top:20px;
+    bottom: 20px;
+    background-color: rgb(8, 4, 54);
+}
+
+
+footer form{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    padding: 5px;
+    bottom: 5px;
+    text-align: center; 
+    top:-10px;
+    
+}
+footer h3{
+    font-size: 18px;
+    color: white;
+    position: relative;
+    background-color: rgb(8, 4, 54);
+    
+    text-align: left;
+    
+    top:20px;
+    border:0.5px solid gainsboro;
+    bottom:10px;
+    border-bottom: 1px;
+    width: 90%;
+    
+}
+
+   
+    
+footer h4{
+    color: white;
+    position: relative;
+    background-color: rgb(8, 4, 54);
+    text-align: left;
+    font-size: 14px;
+    top:10px;
+    bottom:10px;
+    left:0px;
+   
+}
+footer h5{ 
+    font-size: 18px;
+    color: white;
+    position: relative;
+    background-color: rgb(8, 4, 54);
+    left:0px;
+    bottom:10px;
+    top:10px;
+    padding:0.5px;
+    border:0.5px solid gainsboro;
+    width: 90%;
+    border-bottom: 1px;
+}
+
+aside img{
+    
+    width: 60px;
+    position:fixed;
+    right: 3%;
+    bottom: 80px;
+    z-index: 100;
+    
+}
+aside a{
+    position:absolute;
+    
+}
+div.carousel-inner{
+    width:50%;
+    left:25%;
+    top:20px;
+    
+    
+}
+div h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    color:rgb(4, 1, 27);
+    float:left;
+    text-align: center;
+}
+div.container-fluid p{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+
+}
+*{
+    box-sizing: border-box;
+   }
+   
+.img-gal{
+    display: inline;
+    margin: auto;
+    border-radius: 20px;
+   }
+   
+#display{
+    display:block;
+}
+   
+.conten-imagen-gal{
+    position: relative;
+}
+   
+.texto-img{
+    background-color:rgb(4, 1, 27);
+    opacity: 0.75;
+    position: absolute;
+    width: 75.7%;
+    left: 2.8%;
+    height: 100%;
+    display: none;
+    border-radius: 40.5px;
+}
+   
+.texto-img p{
+    text-align: center;
+    padding-top: 30%;
+    color: white;
+}
+   
+.conten-imagen-gal:hover .texto-img{
+    display: block;
+    color:aliceblue;
+}
